@@ -2,19 +2,19 @@
     "name": "WebX Renamer Bot",
     "description": "Telegram File Renamer Bot ",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/WebX-Divin/Rename-Bot-V1.0",
+    "repository": "https://github.com/Vethavetha/Rename-Bot-V1.0-1/tree/master",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "26950524"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "f4fb3d1cd320a027837830c89d70d506"
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
+            "value": "1002081316321.",
             "required": false 
         },
         "BOT_TOKEN": {
@@ -23,7 +23,7 @@
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split",
-            "value": ""
+            "value": "5616093790."
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
@@ -36,13 +36,13 @@
         },
         "START_PIC": {
             "description": "Your Bot start cmd Pic",
-            "value": "",
+            "value": "J6hDzzu.md.jpg",
             "required": false
         }
     },
     "buildpacks": [
         {
-            "url": "heroku/python"
+            "url": "render/python"
         }
     ]
 }
